@@ -1,22 +1,20 @@
 # Principios de SOLID y Clean Code
 
-## Instalaciones necesarias
- - Visual Studio Code (opcional)
-    - Activitus (opcional)
-        Extencion
-    - Tokyo Night (opcional)
-        Tema de visual studio
-    - iconos (opcional)
-        Tema de iconos de visual studio
-    - TypeScript Importes (opcional)
-        Extencion para importar de forma automatica en typescript
- - Node (version 16 o 18)
- - yarn (opcional)
- - warp (opcional)
-    - es un terminal para iOS
- - Google Chrome (opcional)
+## Temas puntuales de la seccion
+En esta sección estaremos hablando y haciendo ejercicios sobre:
 
-## Principales referencias
- - Clean Javascript
-    Autor: Miguel A. Gomez
-    link: https://cleanjavascript.es/
+¿Qué es la deuda técnica?
+
+¿Cómo se paga la deuda técnica?
+
+Refactorización
+
+Nombres de variables
+
+Nombres para funciones
+
+Ejercicios de refactorización
+
+Principio DRY
+
+Esta sección procura que empecemos a escribir código que sea fácil de leer por nosotros y otros desarrolladores.
