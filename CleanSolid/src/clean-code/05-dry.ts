@@ -14,7 +14,7 @@ class Product {
           if ((this[key] as string).length <= 0) throw Error(`${key} is empty`);
           break;
         case "number":
-          if (this[key] <= 0) throw Error("Price is zero");
+          if (this[key] <= 0 || !this[key]) throw Error(`${key} is zero`);
           break;
         default:
           throw Error(`${typeof this[key]} is not supperted`);
