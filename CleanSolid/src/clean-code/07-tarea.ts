@@ -24,18 +24,19 @@
     removeValue() {}
   }
 
-  interface InputElementProps {
-    value: string;
-    placeholder: string;
-    id: string;
-  }
+//   interface InputElementProps {
+//     value: string;
+//     placeholder: string;
+//     id: string;
+//   }
 
   class InputElement {
     public htmlElement: HtmlElement;
     public inputAttributes: InputAttributes;
     public inputEvents: InputEvents;
 
-    constructor({ id, placeholder, value }: InputElementProps) {
+    constructor(id: string, placeholder: string, value: string ) {
+        // constructor({ id, placeholder, value }: InputElementProps) {
       this.htmlElement = new HtmlElement(id, "input");
       this.inputAttributes = new InputAttributes(value, placeholder);
       this.inputEvents = new InputEvents();
@@ -44,11 +45,11 @@
 
   //? Idea para la nueva clase InputElement
 
-  const nameField = new InputElement({
-    value: "Fernando",
-    placeholder: "Enter first name",
-    id: "txtName",
-  });
+  const nameField = new InputElement(
+    "Fernando",
+    "Enter first name",
+    "txtName",
+  );
 
   console.log({ nameField });
 })();
