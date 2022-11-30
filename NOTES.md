@@ -10,7 +10,7 @@ La idea es evitar a toda costa estos puntos que hacen que nuestro código pierda
 Singleton: Patron singleton
     Garantiza una unica instancia de la clase a los largo de toda la aplicacion.
 Tight Coupling: alto acoplamiento
-    
+    Es cuando existe una dependencia transitiva que afecta clases o funciones que no tienen una dependencia real con relacion al cambio
 Untestability: codigo no probable (unit test)
 
 Premature optimization: optimizaciones prematuras
