@@ -20,3 +20,7 @@ Liskov Substitution: Sustitucion de Liskov.
 Interface segregation: Segregacion de interfaz.
     Este principio establece que los clientes no deberian verse forzados a depender de interfaces que no usan.
 Dependency inversion: Inversion de dependencias.
+ - Los modulos de alto nivel no deberian depender de modulos de bajo nivel
+ - Ambos deberian depender de abstracciones
+ - Las abstracciones no deberian depender de detalles
+ - Los detalles deberian depender de abstacciones
