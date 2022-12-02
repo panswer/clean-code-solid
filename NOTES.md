@@ -12,6 +12,7 @@ Los principios SOLID nos indican como organizar nuestras funciones y estructuras
 Single Responsability: Responsabilidad unica.
     Nunca deberia haber mas de un motivo por el cual cambiar una clase o un modulo
 Open and Close: Abierto y Cerrado.
+    Esteablece que las entidades de software (clases, modulos, metodos, etc.) deben de estar abiertas para la extension, pero cerradas para la modificacion.
 Liskov Substitution: Sustitucion de Liskov.
 Interface segregation: Segregacion de interfaz.
 Dependency inversion: Inversion de dependencias.
