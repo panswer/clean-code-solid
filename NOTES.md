@@ -18,4 +18,5 @@ Liskov Substitution: Sustitucion de Liskov.
 
     Siendo U un subtipo de T, cualquier instancia de T deberia por ser sustituida por cualquier instancia de U sin alterar las propiedades del sistema.
 Interface segregation: Segregacion de interfaz.
+    Este principio establece que los clientes no deberian verse forzados a depender de interfaces que no usan.
 Dependency inversion: Inversion de dependencias.
